@@ -1,0 +1,25 @@
+/* Write your code here: */
+/*grouping different selectors and same change*/
+h1,h2{
+    color: rgb(119, 18, 165);
+}
+/* parent and one of the children just below it*/
+.box > p{
+    color: firebrick;
+}
+
+/* parent and any allies u want to choose*/
+.box .list{ 
+    color:blue ;
+}
+
+/*chaining = apply where all selectors are true*/
+/*h1.class#id*/
+li.done{
+    color: seagreen;
+}
+
+/*combining all the selectors above*/
+ul p.done{
+    font-size: 0.5rem;
+}

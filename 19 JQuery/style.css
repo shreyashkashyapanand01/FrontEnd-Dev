@@ -1,0 +1,9 @@
+body{
+    background: green;
+}
+
+.big-title{
+    font-size: 7rem;
+    color: yellow;
+    font-family: cursive;
+}
